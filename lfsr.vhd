@@ -1,0 +1,64 @@
+----------------------------------------------------------------------------------
+-- Author: Sahil Gogna
+-- Date Created: 4-5-18
+-- Date Modified: 11-16-19
+-- Description: LFSR via behavioral architecture
+----------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity lfsr is
+    generic (X: integer := 16);
+    Port ( CLK : in  STD_LOGIC;
+           RST : in  STD_LOGIC;
+           EN  : in  STD_LOGIC;
+           BP1 : out STD_LOGIC_VECTOR (X-1 downto 0);
+	         BP2 : out STD_LOGIC_VECTOR (X-1 downto 0)	
+	);
+end lfsr;
+
+architecture Behavioral of lfsr is
+signal lfsr_signal : std_logic_vector (X-1 downto 0);
+begin
+	process(CLK,RST) is begin
+	  -- Active high, Synchronous Reset
+			if (RST = '1') then
+				rst_for: for i in 0 to (X-2) loop
+					lfsr_signal(i) <= '0';
+				end loop;
+				lfsr_signal(X-1) <= '1';
+				
+		  elsif (rising_edge(CLK)) then
+			-- If enable is high on rising edge of clock, start the linear shifting!
+			   if (EN = '1' and RST ='0') then				
+				    lfsr_signal(0) <= lfsr_signal(X-1) xor lfsr_signal(X-2) xor lfsr_signal(X-3) xor lfsr_signal(X-4);
+				    en_loop: for j in 0 to (X-2) loop
+					     lfsr_signal(j+1) <= lfsr_signal(j);				
+				    end loop;
+			
+			-- Else, Hold 
+			   else 
+				    hold_loop: for k in 0 to (X-1) loop
+					     lfsr_signal(k) <= lfsr_signal(k);
+				    end loop; 
+			   end if;
+		end if;
+	end process;
+
+	-- For each flip flop output, a concatentation of singals must be performed!
+	pattern_proc: process (CLK) is
+	begin 
+		if (rising_edge(CLK)) then
+	
+			    BP1 <= lfsr_signal(0) & lfsr_signal(1) & lfsr_signal(2) & lfsr_signal(3) & lfsr_signal(4) & lfsr_signal(5) & lfsr_signal(6) & lfsr_signal(7) &
+			           lfsr_signal(8) & lfsr_signal(9) & lfsr_signal(10) & lfsr_signal(11) & lfsr_signal(12) & lfsr_signal(13) & lfsr_signal(14) & lfsr_signal(15);
+			    
+			    BP2 <= lfsr_signal(0) & lfsr_signal(1) & lfsr_signal(2) & lfsr_signal(3) & lfsr_signal(4) & lfsr_signal(5) & lfsr_signal(6) & lfsr_signal(7) &
+			           lfsr_signal(8) & lfsr_signal(9) & lfsr_signal(10) & lfsr_signal(11) & lfsr_signal(12) & lfsr_signal(13) & lfsr_signal(14) & lfsr_signal(15);
+			
+		end if;
+	end process pattern_proc;
+end Behavioral;
+
+
+
