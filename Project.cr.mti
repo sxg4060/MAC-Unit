@@ -77,6 +77,14 @@ QuestaSim-64 vcom 10.2c_6 Compiler 2013.12 Dec 17 2013
 -- Compiling entity mac_register
 -- Compiling architecture structural of mac_register
 
+} {} {}} /home/sxg4060/Desktop/Projects/MAC-Unit/lfsr.vhd {1 {vcom -work work -2002 -explicit -novopt /home/sxg4060/Desktop/Projects/MAC-Unit/lfsr.vhd
+QuestaSim-64 vcom 10.2c_6 Compiler 2013.12 Dec 17 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity lfsr
+-- Compiling architecture Behavioral of lfsr
+
 } {} {}} /home/sxg4060/Desktop/Projects/MAC-Unit/multiplier.vhd {1 {vcom -work work -2002 -explicit -novopt /home/sxg4060/Desktop/Projects/MAC-Unit/multiplier.vhd
 QuestaSim-64 vcom 10.2c_6 Compiler 2013.12 Dec 17 2013
 -- Loading package STANDARD
@@ -86,22 +94,6 @@ QuestaSim-64 vcom 10.2c_6 Compiler 2013.12 Dec 17 2013
 -- Compiling architecture structural of multiplier
 -- Loading entity FullAdderWrapper
 
-} {} {}} /home/sxg4060/Desktop/Projects/MAC-Unit/lfsr.vhd {1 {vcom -work work -2002 -explicit -novopt /home/sxg4060/Desktop/Projects/MAC-Unit/lfsr.vhd
-QuestaSim-64 vcom 10.2c_6 Compiler 2013.12 Dec 17 2013
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity lfsr
--- Compiling architecture Behavioral of lfsr
-
-} {} {}} /home/sxg4060/Desktop/Projects/MAC-Unit/xorG.vhd {1 {vcom -work work -2002 -explicit -novopt /home/sxg4060/Desktop/Projects/MAC-Unit/xorG.vhd
-QuestaSim-64 vcom 10.2c_6 Compiler 2013.12 Dec 17 2013
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity xorG
--- Compiling architecture dataflow of xorG
-
 } {} {}} /home/sxg4060/Desktop/Projects/MAC-Unit/MISR_tb.vhd {1 {vcom -work work -2002 -explicit -novopt /home/sxg4060/Desktop/Projects/MAC-Unit/MISR_tb.vhd
 QuestaSim-64 vcom 10.2c_6 Compiler 2013.12 Dec 17 2013
 -- Loading package STANDARD
@@ -110,6 +102,14 @@ QuestaSim-64 vcom 10.2c_6 Compiler 2013.12 Dec 17 2013
 -- Loading package NUMERIC_STD
 -- Compiling entity MISR_tb
 -- Compiling architecture bench of MISR_tb
+
+} {} {}} /home/sxg4060/Desktop/Projects/MAC-Unit/xorG.vhd {1 {vcom -work work -2002 -explicit -novopt /home/sxg4060/Desktop/Projects/MAC-Unit/xorG.vhd
+QuestaSim-64 vcom 10.2c_6 Compiler 2013.12 Dec 17 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xorG
+-- Compiling architecture dataflow of xorG
 
 } {} {}} /home/sxg4060/Desktop/Projects/MAC-Unit/mac_wrapper.vhd {1 {vcom -work work -2002 -explicit -novopt /home/sxg4060/Desktop/Projects/MAC-Unit/mac_wrapper.vhd
 QuestaSim-64 vcom 10.2c_6 Compiler 2013.12 Dec 17 2013

@@ -1,0 +1,86 @@
+/tools/mentor/leonardo/2008b/bin/Linux/spectrum -file MAC_script 
+-------------------------------------------------
+LeonardoSpectrum Level 3 - 2008b.3 (Release Production Release, compiled Dec  8 2008 at 13:18:31)
+Copyright 1990-2008 Mentor Graphics.  All rights reserved.
+Portions copyright 1991-2008 Compuware Corporation
+
+Checking Security ...
+Reading library file `/home/sxg4060/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/GDKgates_utilities/hdl_libs/gdk.syn`...
+Library version = 1.0 GDK Release : July 18, 2012
+Delays assume: Process=typical Temp= 27.0 C  Voltage=1.80 V  
+Info: setting encoding to auto
+-- Reading file /tools/mentor/leonardo/2008b/data/standard.vhd for unit standard
+-- Loading package standard into library std
+-- Reading vhdl file /home/sxg4060/Desktop/Projects/MAC-Unit/FullAdder.vhd into library work
+-- Reading file /tools/mentor/leonardo/2008b/data/std_1164.vhd for unit STD_LOGIC_1164
+-- Loading package std_logic_1164 into library IEEE
+-- Loading entity FullAdder into library work
+-- Loading architecture Dataflow of FullAdder into library work
+-- Reading vhdl file /home/sxg4060/Desktop/Projects/MAC-Unit/FullAdderWrapper.vhd into library work
+-- Loading entity FullAdderWrapper into library work
+-- Loading architecture Behavioral of FullAdderWrapper into library work
+-- Reading vhdl file /home/sxg4060/Desktop/Projects/MAC-Unit/multiplier.vhd into library work
+-- Loading entity multiplier into library work
+-- Loading architecture structural of multiplier into library work
+-- Reading vhdl file /home/sxg4060/Desktop/Projects/MAC-Unit/mac_register.vhd into library work
+-- Loading entity mac_register into library work
+-- Loading architecture structural of mac_register into library work
+-- Reading vhdl file /home/sxg4060/Desktop/Projects/MAC-Unit/CLA_adder.vhd into library work
+-- Loading entity CLA_adder into library work
+-- Loading architecture behavioral of CLA_adder into library work
+-- Reading vhdl file /home/sxg4060/Desktop/Projects/MAC-Unit/mac_wrapper.vhd into library work
+-- Loading entity mac_wrapper into library work
+-- Loading architecture behavioral of mac_wrapper into library work
+"/home/sxg4060/Desktop/Projects/MAC-Unit/mac_wrapper.vhd",line 22: Warning, signal tempCout is never used.
+"/home/sxg4060/Desktop/Projects/MAC-Unit/mac_wrapper.vhd",line 25: Warning, signal tempQ is never used.
+"/home/sxg4060/Desktop/Projects/MAC-Unit/mac_wrapper.vhd",line 25: Warning, signal tempQ is never assigned a value.
+"/home/sxg4060/Desktop/Projects/MAC-Unit/mac_wrapper.vhd",line 27: Warning, signal bool is never used.
+-- Reading vhdl file /home/sxg4060/Desktop/Projects/MAC-Unit/lfsr.vhd into library work
+-- Loading entity lfsr into library work
+-- Loading architecture Behavioral of lfsr into library work
+-- Reading vhdl file /home/sxg4060/Desktop/Projects/MAC-Unit/MISR.vhd into library work
+-- Loading entity MISR into library work
+-- Loading architecture Behavioral of MISR into library work
+-- Reading vhdl file /home/sxg4060/Desktop/Projects/MAC-Unit/BIST.vhd into library work
+-- Loading entity BIST into library work
+-- Loading architecture behavioral of BIST into library work
+-- Compiling root entity BIST(behavioral)
+"/home/sxg4060/Desktop/Projects/MAC-Unit/BIST.vhd",line 26: Warning, initial value for bp1 is ignored for synthesis.
+"/home/sxg4060/Desktop/Projects/MAC-Unit/BIST.vhd",line 27: Warning, initial value for bp2 is ignored for synthesis.
+"/home/sxg4060/Desktop/Projects/MAC-Unit/BIST.vhd",line 28: Warning, initial value for lfsr_B is ignored for synthesis.
+"/home/sxg4060/Desktop/Projects/MAC-Unit/BIST.vhd",line 29: Warning, initial value for lfsr_C is ignored for synthesis.
+"/home/sxg4060/Desktop/Projects/MAC-Unit/BIST.vhd",line 30: Warning, initial value for result is ignored for synthesis.
+"/home/sxg4060/Desktop/Projects/MAC-Unit/BIST.vhd",line 31: Warning, initial value for sig is ignored for synthesis.
+"/home/sxg4060/Desktop/Projects/MAC-Unit/BIST.vhd",line 34: Info, conditions are mutually exclusive; resolve without priority.
+"/home/sxg4060/Desktop/Projects/MAC-Unit/BIST.vhd",line 34: Info, else part is never selected for synthesis.
+"/home/sxg4060/Desktop/Projects/MAC-Unit/BIST.vhd",line 37: Info, conditions are mutually exclusive; resolve without priority.
+"/home/sxg4060/Desktop/Projects/MAC-Unit/BIST.vhd",line 37: Info, else part is never selected for synthesis.
+"/home/sxg4060/Desktop/Projects/MAC-Unit/BIST.vhd",line 49: Warning, result should be declared on the sensitivity list of the process.
+-- Compiling entity lfsr_16(Behavioral)
+-- Compiling entity mac_wrapper_16(behavioral)
+"/home/sxg4060/Desktop/Projects/MAC-Unit/mac_wrapper.vhd",line 22: Warning, initial value for tempCout is ignored for synthesis.
+"/home/sxg4060/Desktop/Projects/MAC-Unit/mac_wrapper.vhd",line 35: Warning, tempA should be declared on the sensitivity list of the process.
+-- Compiling entity mac_register_16(structural)
+-- Compiling entity multiplier_16(structural)
+"/home/sxg4060/Desktop/Projects/MAC-Unit/multiplier.vhd",line 30: Warning, initial value for PP is ignored for synthesis.
+"/home/sxg4060/Desktop/Projects/MAC-Unit/multiplier.vhd",line 31: Warning, initial value for ACCUM is ignored for synthesis.
+"/home/sxg4060/Desktop/Projects/MAC-Unit/multiplier.vhd",line 32: Warning, initial value for CARRY is ignored for synthesis.
+-- Compiling entity FullAdderWrapper_31(Behavioral)
+-- Compiling entity FullAdder(Dataflow)
+-- Compiling entity CLA_adder_16(behavioral)
+"/home/sxg4060/Desktop/Projects/MAC-Unit/CLA_adder.vhd",line 34: Warning, Cin should be declared on the sensitivity list of the process.
+-- Compiling entity MISR_16(Behavioral)
+Info: The target technology was not selected, gdk was automatically selected for you.
+-- Optimizing netlist .work.BIST.behavioral
+-- Automatic IO buffer insertion...
+WARNING: cannot do IO mapping. Library has no plain input IO buffer
+-- Matching combinational logic..
+-- Matching non-combinational logic..
+-- Covering..
+-- CPU Time used :   00:02 Mapping
+Re-checking DRC after adjustments
+-- Final Design Rule Check..
+Re-checking DRC after adjustments
+-- Writing file BIST.v
+-- Writing file BIST.vhdl
+-- Writing file BIST.sdf

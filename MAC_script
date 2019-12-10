@@ -1,0 +1,9 @@
+set exclude {PadInC PadOut}
+load_library ~/Pyxis_SPT_HEP/ic_reflibs/external_libs/GDKgates/GDKgates_utilities/hdl_libs/gdk.syn
+read {FullAdder.vhd FullAdderWrapper.vhd multiplier.vhd mac_register.vhd CLA_adder.vhd mac_wrapper.vhd lfsr.vhd MISR.vhd BIST.vhd}
+ungroup -all -hier
+set sdf_write_flat_netlist TRUE
+optimize
+write -format verilog BIST.v
+write -format vhdl BIST.vhdl
+write -format sdf BIST.sdf

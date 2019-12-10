@@ -25,7 +25,7 @@ process(clk, rst) is begin
         misr_signal <= (others => '0');
       elsif (rising_edge(clk)) then         
         if (enable = '1' and RST = '0') then
-            misr_signal(0) <= misr_signal((2*X)-1) xor misr_signal((2*X)-3) xor misr_signal((2*X)-4) xor mac_out((2*X)-1);
+            misr_signal(0) <= misr_signal((2*X)-1) xor misr_signal((2*X)-3) xor misr_signal((2*X)-7) xor mac_out((2*X)-8);
             misr_loop: for i in 0 to ((2*X)-2) loop
                 misr_signal(i+1) <= misr_signal(i) xor mac_out(((2*X)-1)-(i+1));				
 				    end loop;  

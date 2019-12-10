@@ -8,71 +8,7 @@
 # //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
 # //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
 # //
-# Loading project MAC
-# reading /tools/mentor/ams/2013.12.2d/questasim/v10.2c_6/linux_x86_64/../modelsim.ini
 # Loading project Project
-# Compile of BIST.vhd failed with 1 errors.
-# Compile of BIST_tb.vhd was successful.
-# Compile of BIST_tb2.vhd was successful.
-# Compile of BIST_tb3.vhd was successful.
-# Compile of CLA_adder.vhd was successful.
-# Compile of CLA_adder_TB.vhd was successful.
-# Compile of FullAdder.vhd was successful.
-# Compile of FullAdderWrapper.vhd was successful.
-# Compile of lfsr.vhd was successful.
-# Compile of lfsr_tb.vhd was successful.
-# Compile of mac_adder_wrapper.vhd failed with 1 errors.
-# Compile of mac_register.vhd was successful.
-# Compile of mac_register_tb.vhd was successful.
-# Compile of mac_tb.vhd was successful.
-# Compile of mac_wrapper.vhd failed with 2 errors.
-# Compile of MISR.vhd was successful.
-# Compile of MISR_tb.vhd was successful.
-# Compile of multiplier.vhd was successful.
-# Compile of multiplier_tb.vhd was successful.
-# Compile of xorG.vhd was successful.
-# 20 compiles, 3 failed with 4 errors. 
-# Compile of BIST.vhd was successful.
-# Compile of BIST_tb.vhd was successful.
-# Compile of BIST_tb2.vhd was successful.
-# Compile of BIST_tb3.vhd was successful.
-# Compile of CLA_adder.vhd was successful.
-# Compile of CLA_adder_TB.vhd was successful.
-# Compile of FullAdder.vhd was successful.
-# Compile of FullAdderWrapper.vhd was successful.
-# Compile of lfsr.vhd was successful.
-# Compile of lfsr_tb.vhd was successful.
-# Compile of mac_adder_wrapper.vhd failed with 1 errors.
-# Compile of mac_register.vhd was successful.
-# Compile of mac_register_tb.vhd was successful.
-# Compile of mac_tb.vhd was successful.
-# Compile of mac_wrapper.vhd was successful.
-# Compile of MISR.vhd was successful.
-# Compile of MISR_tb.vhd was successful.
-# Compile of multiplier.vhd was successful.
-# Compile of multiplier_tb.vhd was successful.
-# Compile of xorG.vhd was successful.
-# 20 compiles, 1 failed with 1 error. 
-# Compile of BIST.vhd was successful.
-# Compile of BIST_tb.vhd was successful.
-# Compile of BIST_tb2.vhd was successful.
-# Compile of BIST_tb3.vhd was successful.
-# Compile of CLA_adder.vhd was successful.
-# Compile of CLA_adder_TB.vhd was successful.
-# Compile of FullAdder.vhd was successful.
-# Compile of FullAdderWrapper.vhd was successful.
-# Compile of lfsr.vhd was successful.
-# Compile of lfsr_tb.vhd was successful.
-# Compile of mac_register.vhd was successful.
-# Compile of mac_register_tb.vhd was successful.
-# Compile of mac_tb.vhd was successful.
-# Compile of mac_wrapper.vhd was successful.
-# Compile of MISR.vhd was successful.
-# Compile of MISR_tb.vhd was successful.
-# Compile of multiplier.vhd was successful.
-# Compile of multiplier_tb.vhd was successful.
-# Compile of xorG.vhd was successful.
-# 19 compiles, 0 failed with no errors. 
 # Compile of BIST_tb.vhd was successful.
 vsim work.bist_tb
 # vsim work.bist_tb 
@@ -90,14 +26,17 @@ vsim work.bist_tb
 # Loading work.fulladder(dataflow)
 # Loading work.cla_adder(behavioral)
 # Loading work.misr(behavioral)
-add wave -position end  sim/:bist_tb:uut:Cin
-add wave -position end  sim/:bist_tb:uut:CLK
-add wave -position end  sim/:bist_tb:uut:RST
-add wave -position end  sim/:bist_tb:uut:test_mode
-add wave -position end  sim/:bist_tb:uut:signature
-add wave -position end  sim/:bist_tb:uut:mac_output
-add wave -position end  sim/:bist_tb:uut:bp1
-add wave -position end  sim/:bist_tb:uut:bp2
+add wave -position end  sim/:bist_tb:B
+add wave -position end  sim/:bist_tb:C
+add wave -position end  sim/:bist_tb:Cin
+add wave -position end  sim/:bist_tb:CLK
+add wave -position end  sim/:bist_tb:RST
+add wave -position end  sim/:bist_tb:test_mode
+add wave -position end  sim/:bist_tb:signature
+add wave -position end  sim/:bist_tb:mac_output
+restart
+run
+add wave -position end  sim/:bist_tb:clock_period
 restart
 run
 quit -sim

@@ -53,8 +53,8 @@ begin
 			    BP1 <= lfsr_signal(0) & lfsr_signal(1) & lfsr_signal(2) & lfsr_signal(3) & lfsr_signal(4) & lfsr_signal(5) & lfsr_signal(6) & lfsr_signal(7) &
 			           lfsr_signal(8) & lfsr_signal(9) & lfsr_signal(10) & lfsr_signal(11) & lfsr_signal(12) & lfsr_signal(13) & lfsr_signal(14) & lfsr_signal(15);
 			    
-			    BP2 <= lfsr_signal(15) & lfsr_signal(14) & lfsr_signal(13) & lfsr_signal(12) & lfsr_signal(11) & lfsr_signal(10) & lfsr_signal(9) & lfsr_signal(8) &
-			           lfsr_signal(7) & lfsr_signal(6) & lfsr_signal(5) & lfsr_signal(4) & lfsr_signal(3) & lfsr_signal(2) & lfsr_signal(1) & lfsr_signal(0);
+			    BP2 <= lfsr_signal(0) & lfsr_signal(1) & lfsr_signal(2) & lfsr_signal(3) & lfsr_signal(4) & lfsr_signal(5) & lfsr_signal(6) & lfsr_signal(7) &
+			           lfsr_signal(8) & lfsr_signal(9) & lfsr_signal(10) & lfsr_signal(11) & lfsr_signal(12) & lfsr_signal(13) & lfsr_signal(14) & lfsr_signal(15);
 			
 		end if;
 	end process pattern_proc;

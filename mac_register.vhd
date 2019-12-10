@@ -31,7 +31,7 @@ BEGIN
     begin
        if (RST = '1') then
           Q <= (others => '0');
-	     elsif (rising_edge(CLK) and RST = '0') then
+	     elsif (rising_edge(CLK)) then
 	         Q <= D;
 	end if;
     end process;

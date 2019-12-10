@@ -56,9 +56,6 @@ begin
     wait for clock_period;
     RST <= '0';
     wait for 70*(clock_period/4);
-    test_mode <= '0';
-    B <= X"0002";
-    C <= X"0004";
     RST <= '1';
     wait for clock_period*10;
     RST <= '0';

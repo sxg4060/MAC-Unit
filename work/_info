@@ -20,8 +20,8 @@ L11
 V24_HE3?bbEG5gB]`N5aYH0
 Z6 OL;C;10.2c_6;57
 32
-Z7 !s110 1575523903
-Z8 !s108 1575523903.439806
+Z7 !s110 1575661949
+Z8 !s108 1575661949.038864
 Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-novopt|/home/sxg4060/Desktop/Projects/MAC-Unit/BIST.vhd|
 Z10 !s107 /home/sxg4060/Desktop/Projects/MAC-Unit/BIST.vhd|
 Z11 o-work work -2002 -explicit
@@ -51,7 +51,7 @@ R12
 !i10b 1
 !i111 1
 Ebist_tb
-Z16 w1575523634
+Z16 w1575705821
 Z17 DPx4 ieee 11 numeric_std 0 22 WES[o8HS0jHV[MIXQk2Ha1
 R1
 R2
@@ -64,9 +64,9 @@ VQG9Bekh<P@Wbb_OHSchGb0
 !s100 c1bIL9NlbNBLaEVAI^5HT0
 R6
 32
-Z20 !s110 1575523913
+Z20 !s110 1575933786
 !i10b 1
-Z21 !s108 1575523913.522112
+Z21 !s108 1575933786.414490
 Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-novopt|/home/sxg4060/Desktop/Projects/MAC-Unit/BIST_tb.vhd|
 Z23 !s107 /home/sxg4060/Desktop/Projects/MAC-Unit/BIST_tb.vhd|
 !i111 1
@@ -79,8 +79,8 @@ R2
 Z24 DEx4 work 7 bist_tb 0 22 QG9Bekh<P@Wbb_OHSchGb0
 l36
 L8
-VfIPCZb`moZ@1o^]:6XWa10
-!s100 @:HN?cI6injdSJQ<Dkn[h2
+VLPQHkI<<F5zk:VlC24^Oz0
+!s100 =oc>S[HG=<9FgbmA75==S0
 R6
 32
 R20
@@ -92,19 +92,19 @@ R23
 R11
 R12
 Ecla_adder
-R16
+Z25 w1575523634
 R1
 R2
 R3
-Z25 8/home/sxg4060/Desktop/Projects/MAC-Unit/CLA_adder.vhd
-Z26 F/home/sxg4060/Desktop/Projects/MAC-Unit/CLA_adder.vhd
+Z26 8/home/sxg4060/Desktop/Projects/MAC-Unit/CLA_adder.vhd
+Z27 F/home/sxg4060/Desktop/Projects/MAC-Unit/CLA_adder.vhd
 l0
 L10
 VeA;kiem`AS=^gZM5PD`;J3
 R6
 32
-Z27 !s110 1575523904
-Z28 !s108 1575523903.950806
+R7
+Z28 !s108 1575661949.450684
 Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-novopt|/home/sxg4060/Desktop/Projects/MAC-Unit/CLA_adder.vhd|
 Z30 !s107 /home/sxg4060/Desktop/Projects/MAC-Unit/CLA_adder.vhd|
 R11
@@ -121,7 +121,7 @@ L21
 V6b2zG>ikDz3A^SG7k8jS23
 R6
 32
-R27
+R7
 R28
 R29
 R30
@@ -131,7 +131,7 @@ R12
 !i10b 1
 !i111 1
 Ecla_adder_tb
-R16
+R25
 R17
 R1
 R2
@@ -143,8 +143,8 @@ L5
 V^DH2Oo2Y1=ez[zal[G=B42
 R6
 32
-R27
-Z34 !s108 1575523904.062865
+R7
+Z34 !s108 1575661949.523157
 Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-novopt|/home/sxg4060/Desktop/Projects/MAC-Unit/CLA_adder_TB.vhd|
 Z36 !s107 /home/sxg4060/Desktop/Projects/MAC-Unit/CLA_adder_TB.vhd|
 R11
@@ -162,7 +162,7 @@ L8
 VYecH<HYkJ:WfFjkPAD0S50
 R6
 32
-R27
+R7
 R34
 R35
 R36
@@ -172,7 +172,7 @@ R12
 !i10b 1
 !i111 1
 Efulladder
-R16
+R25
 R1
 R2
 R3
@@ -183,8 +183,8 @@ L17
 VKjj8T`P83m:RXA0MDEQYQ2
 R6
 32
-R27
-Z39 !s108 1575523904.172361
+R7
+Z39 !s108 1575661949.608462
 Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-novopt|/home/sxg4060/Desktop/Projects/MAC-Unit/FullAdder.vhd|
 Z41 !s107 /home/sxg4060/Desktop/Projects/MAC-Unit/FullAdder.vhd|
 R11
@@ -201,7 +201,7 @@ L24
 V0<36T`FOZ37QU`<?gKfWJ2
 R6
 32
-R27
+R7
 R39
 R40
 R41
@@ -211,7 +211,7 @@ R12
 !i10b 1
 !i111 1
 Efulladderwrapper
-R16
+R25
 R1
 R2
 R3
@@ -222,8 +222,8 @@ L17
 VDm8:BUY]]eTPXVUO^8Q@K0
 R6
 32
-R27
-Z45 !s108 1575523904.263659
+R7
+Z45 !s108 1575661949.676597
 Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-novopt|/home/sxg4060/Desktop/Projects/MAC-Unit/FullAdderWrapper.vhd|
 Z47 !s107 /home/sxg4060/Desktop/Projects/MAC-Unit/FullAdderWrapper.vhd|
 R11
@@ -241,7 +241,7 @@ L26
 VlVO9US?Wom:9;@@4SV>F<1
 R6
 32
-R27
+R7
 R45
 R46
 R47
@@ -251,21 +251,21 @@ R12
 !i10b 1
 !i111 1
 Elfsr
-R16
+Z49 w1575662168
 R1
 R2
 R3
-Z49 8/home/sxg4060/Desktop/Projects/MAC-Unit/lfsr.vhd
-Z50 F/home/sxg4060/Desktop/Projects/MAC-Unit/lfsr.vhd
+Z50 8/home/sxg4060/Desktop/Projects/MAC-Unit/lfsr.vhd
+Z51 F/home/sxg4060/Desktop/Projects/MAC-Unit/lfsr.vhd
 l0
 L10
 V1jFHo<7g5@XBe@n0<BMSi0
 R6
 32
-R27
-Z51 !s108 1575523904.369821
-Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-novopt|/home/sxg4060/Desktop/Projects/MAC-Unit/lfsr.vhd|
-Z53 !s107 /home/sxg4060/Desktop/Projects/MAC-Unit/lfsr.vhd|
+Z52 !s110 1575662174
+Z53 !s108 1575662174.888600
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-novopt|/home/sxg4060/Desktop/Projects/MAC-Unit/lfsr.vhd|
+Z55 !s107 /home/sxg4060/Desktop/Projects/MAC-Unit/lfsr.vhd|
 R11
 R12
 !s100 dl5NDUFBzZV5WaPVigELe1
@@ -277,35 +277,35 @@ R2
 R15
 l22
 L20
-V=>c4eC3Y^RMUen2ZXNdh[0
+V8GRbzhdj9?:mOAQS2ck6c3
 R6
 32
-R27
-R51
 R52
 R53
+R54
+R55
 R11
 R12
-!s100 7;TF1fbSWVXYb>Um>;@;X2
+!s100 D<aNWXbRc4_;bThd7:Q`E0
 !i10b 1
 !i111 1
 Elfsr_tb
-R16
+R25
 R17
 R1
 R2
 R3
-Z54 8/home/sxg4060/Desktop/Projects/MAC-Unit/lfsr_tb.vhd
-Z55 F/home/sxg4060/Desktop/Projects/MAC-Unit/lfsr_tb.vhd
+Z56 8/home/sxg4060/Desktop/Projects/MAC-Unit/lfsr_tb.vhd
+Z57 F/home/sxg4060/Desktop/Projects/MAC-Unit/lfsr_tb.vhd
 l0
 L5
 Vf3BF]8G]5l4Xd2X;fm4171
 R6
 32
-R27
-Z56 !s108 1575523904.462262
-Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-novopt|/home/sxg4060/Desktop/Projects/MAC-Unit/lfsr_tb.vhd|
-Z58 !s107 /home/sxg4060/Desktop/Projects/MAC-Unit/lfsr_tb.vhd|
+R7
+Z58 !s108 1575661949.818388
+Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|-novopt|/home/sxg4060/Desktop/Projects/MAC-Unit/lfsr_tb.vhd|
+Z60 !s107 /home/sxg4060/Desktop/Projects/MAC-Unit/lfsr_tb.vhd|
 R11
 R12
 !s100 Nh;]1ZmJN2M9HN<=WSoH^3
@@ -321,17 +321,17 @@ L8
 VNda:WZP4YUYQXz2Jb?N963
 R6
 32
-R27
-R56
-R57
+R7
 R58
+R59
+R60
 R11
 R12
 !s100 fScXhY[4^Xc:lFJMXn[gA1
 !i10b 1
 !i111 1
 Emac_adder_wrapper
-R16
+R25
 R1
 R2
 R3
@@ -352,21 +352,21 @@ R12
 !s107 /home/sxg4060/Desktop/Projects/MAC-Unit/mac_adder_wrapper.vhd|
 !i111 1
 Emac_register
-R16
+Z61 w1575524643
 R1
 R2
 R3
-Z59 8/home/sxg4060/Desktop/Projects/MAC-Unit/mac_register.vhd
-Z60 F/home/sxg4060/Desktop/Projects/MAC-Unit/mac_register.vhd
+Z62 8/home/sxg4060/Desktop/Projects/MAC-Unit/mac_register.vhd
+Z63 F/home/sxg4060/Desktop/Projects/MAC-Unit/mac_register.vhd
 l0
 L17
 VUFRoJC9UllDioV_jVjVHF1
 R6
 32
-R27
-Z61 !s108 1575523904.547304
-Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-novopt|/home/sxg4060/Desktop/Projects/MAC-Unit/mac_register.vhd|
-Z63 !s107 /home/sxg4060/Desktop/Projects/MAC-Unit/mac_register.vhd|
+R7
+Z64 !s108 1575661949.891689
+Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-novopt|/home/sxg4060/Desktop/Projects/MAC-Unit/mac_register.vhd|
+Z66 !s107 /home/sxg4060/Desktop/Projects/MAC-Unit/mac_register.vhd|
 R11
 R12
 !s100 aeK[UzZL9D=QCbHXiH?z83
@@ -375,38 +375,38 @@ R12
 Astructural
 R1
 R2
-Z64 DEx4 work 12 mac_register 0 22 UFRoJC9UllDioV_jVjVHF1
+Z67 DEx4 work 12 mac_register 0 22 UFRoJC9UllDioV_jVjVHF1
 l29
 L27
-VNIj>ATe1]C[oj<TK7ZJh32
+VI5EMGP?=czO@TCedVbG0C0
 R6
 32
-R27
-R61
-R62
-R63
+R7
+R64
+R65
+R66
 R11
 R12
-!s100 6bgP=[gDN^5_RSTCmgh423
+!s100 >[DCcObeSdgYd2bbbR^aP0
 !i10b 1
 !i111 1
 Emac_register_tb
-R16
+R25
 R17
 R1
 R2
 R3
-Z65 8/home/sxg4060/Desktop/Projects/MAC-Unit/mac_register_tb.vhd
-Z66 F/home/sxg4060/Desktop/Projects/MAC-Unit/mac_register_tb.vhd
+Z68 8/home/sxg4060/Desktop/Projects/MAC-Unit/mac_register_tb.vhd
+Z69 F/home/sxg4060/Desktop/Projects/MAC-Unit/mac_register_tb.vhd
 l0
 L5
 VB6d7zh?IfhObEEZBSoYQa0
 R6
 32
-R27
-Z67 !s108 1575523904.680634
-Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-novopt|/home/sxg4060/Desktop/Projects/MAC-Unit/mac_register_tb.vhd|
-Z69 !s107 /home/sxg4060/Desktop/Projects/MAC-Unit/mac_register_tb.vhd|
+R7
+Z70 !s108 1575661949.963408
+Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-novopt|/home/sxg4060/Desktop/Projects/MAC-Unit/mac_register_tb.vhd|
+Z72 !s107 /home/sxg4060/Desktop/Projects/MAC-Unit/mac_register_tb.vhd|
 R11
 R12
 !s100 EJQ;H=g`Lk9B9LBE^=?CV3
@@ -422,31 +422,31 @@ L8
 VKZ5W@2IEKo]HcYeB[Y8PN1
 R6
 32
-R27
-R67
-R68
-R69
+R7
+R70
+R71
+R72
 R11
 R12
 !s100 =526YoD;aS3hM64FIl0>K2
 !i10b 1
 !i111 1
 Emac_wrapper
-R16
+Z73 w1575569339
 R1
 R2
 R3
-Z70 8/home/sxg4060/Desktop/Projects/MAC-Unit/mac_wrapper.vhd
-Z71 F/home/sxg4060/Desktop/Projects/MAC-Unit/mac_wrapper.vhd
+Z74 8/home/sxg4060/Desktop/Projects/MAC-Unit/mac_wrapper.vhd
+Z75 F/home/sxg4060/Desktop/Projects/MAC-Unit/mac_wrapper.vhd
 l0
 L9
 VBjR``RZPPA?@R7g0N16E@3
 R6
 32
-R27
-Z72 !s108 1575523904.856312
-Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-novopt|/home/sxg4060/Desktop/Projects/MAC-Unit/mac_wrapper.vhd|
-Z74 !s107 /home/sxg4060/Desktop/Projects/MAC-Unit/mac_wrapper.vhd|
+Z76 !s110 1575661950
+Z77 !s108 1575661950.118643
+Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|-novopt|/home/sxg4060/Desktop/Projects/MAC-Unit/mac_wrapper.vhd|
+Z79 !s107 /home/sxg4060/Desktop/Projects/MAC-Unit/mac_wrapper.vhd|
 R11
 R12
 !s100 ACDd8V3ZT=R]R3I8MdjVc2
@@ -454,8 +454,8 @@ R12
 !i111 1
 Abehavioral
 R31
-Z75 DEx4 work 10 multiplier 0 22 :zLo;7Ub9k]EF[b_8dIYH3
-R64
+Z80 DEx4 work 10 multiplier 0 22 :zLo;7Ub9k]EF[b_8dIYH3
+R67
 R1
 R2
 R14
@@ -464,32 +464,32 @@ L21
 VHnDi8>HnYE2PE4o4CS2dk1
 R6
 32
-R27
-R72
-R73
-R74
+R76
+R77
+R78
+R79
 R11
 R12
 !s100 [C9:4dfA5iF`QWFIH>=DR2
 !i10b 1
 !i111 1
 Emac_wrapper_tb
-R16
+R25
 R17
 R1
 R2
 R3
-Z76 8/home/sxg4060/Desktop/Projects/MAC-Unit/mac_tb.vhd
-Z77 F/home/sxg4060/Desktop/Projects/MAC-Unit/mac_tb.vhd
+Z81 8/home/sxg4060/Desktop/Projects/MAC-Unit/mac_tb.vhd
+Z82 F/home/sxg4060/Desktop/Projects/MAC-Unit/mac_tb.vhd
 l0
 L5
 VV:0JVO=NiH7FH_f8RQEG]3
 R6
 32
-R27
-Z78 !s108 1575523904.775018
-Z79 !s90 -reportprogress|300|-work|work|-2002|-explicit|-novopt|/home/sxg4060/Desktop/Projects/MAC-Unit/mac_tb.vhd|
-Z80 !s107 /home/sxg4060/Desktop/Projects/MAC-Unit/mac_tb.vhd|
+R76
+Z83 !s108 1575661950.041305
+Z84 !s90 -reportprogress|300|-work|work|-2002|-explicit|-novopt|/home/sxg4060/Desktop/Projects/MAC-Unit/mac_tb.vhd|
+Z85 !s107 /home/sxg4060/Desktop/Projects/MAC-Unit/mac_tb.vhd|
 R11
 R12
 !s100 0X_M^3<]1_CQHBcP6B:C<0
@@ -505,31 +505,31 @@ L8
 VG>0@Z80kWW09@][5LG74P1
 R6
 32
-R27
-R78
-R79
-R80
+R76
+R83
+R84
+R85
 R11
 R12
 !s100 Kd6lzKIhX32n0hU95o7;02
 !i10b 1
 !i111 1
 Emisr
-R16
+Z86 w1575661928
 R1
 R2
 R3
-Z81 8/home/sxg4060/Desktop/Projects/MAC-Unit/MISR.vhd
-Z82 F/home/sxg4060/Desktop/Projects/MAC-Unit/MISR.vhd
+Z87 8/home/sxg4060/Desktop/Projects/MAC-Unit/MISR.vhd
+Z88 F/home/sxg4060/Desktop/Projects/MAC-Unit/MISR.vhd
 l0
 L9
 VZRcWdza1PUaEfOj16W@3G2
 R6
 32
-Z83 !s110 1575523905
-Z84 !s108 1575523904.979296
-Z85 !s90 -reportprogress|300|-work|work|-2002|-explicit|-novopt|/home/sxg4060/Desktop/Projects/MAC-Unit/MISR.vhd|
-Z86 !s107 /home/sxg4060/Desktop/Projects/MAC-Unit/MISR.vhd|
+R76
+Z89 !s108 1575661950.184083
+Z90 !s90 -reportprogress|300|-work|work|-2002|-explicit|-novopt|/home/sxg4060/Desktop/Projects/MAC-Unit/MISR.vhd|
+Z91 !s107 /home/sxg4060/Desktop/Projects/MAC-Unit/MISR.vhd|
 R11
 R12
 !s100 =XllfGmPW1[WH?oCeeP470
@@ -541,35 +541,35 @@ R2
 R13
 l22
 L19
-VfHmm@^ZaPjM<BQUa]1NiC0
+VU;TNlj0M@[GQli;6fi]213
 R6
 32
-R83
-R84
-R85
-R86
+R76
+R89
+R90
+R91
 R11
 R12
-!s100 BYj0]`z?I:j1I0F^i:Yho0
+!s100 U2I@WdUEh;O^f`b7`jnZY1
 !i10b 1
 !i111 1
 Emisr_tb
-R16
+R25
 R17
 R1
 R2
 R3
-Z87 8/home/sxg4060/Desktop/Projects/MAC-Unit/MISR_tb.vhd
-Z88 F/home/sxg4060/Desktop/Projects/MAC-Unit/MISR_tb.vhd
+Z92 8/home/sxg4060/Desktop/Projects/MAC-Unit/MISR_tb.vhd
+Z93 F/home/sxg4060/Desktop/Projects/MAC-Unit/MISR_tb.vhd
 l0
 L5
 VEomi;eBoQb^N2`l>nZmaT2
 R6
 32
-R83
-Z89 !s108 1575523905.127610
-Z90 !s90 -reportprogress|300|-work|work|-2002|-explicit|-novopt|/home/sxg4060/Desktop/Projects/MAC-Unit/MISR_tb.vhd|
-Z91 !s107 /home/sxg4060/Desktop/Projects/MAC-Unit/MISR_tb.vhd|
+R76
+Z94 !s108 1575661950.260070
+Z95 !s90 -reportprogress|300|-work|work|-2002|-explicit|-novopt|/home/sxg4060/Desktop/Projects/MAC-Unit/MISR_tb.vhd|
+Z96 !s107 /home/sxg4060/Desktop/Projects/MAC-Unit/MISR_tb.vhd|
 R11
 R12
 !s100 VBV<6I`nC7=7BhX00K2f:3
@@ -585,31 +585,31 @@ L8
 Vo@XYfzfZAP7Y1BB]iaVN12
 R6
 32
-R83
-R89
-R90
-R91
+R76
+R94
+R95
+R96
 R11
 R12
 !s100 B6iX8X?A`knYGl4a]cOGT1
 !i10b 1
 !i111 1
 Emultiplier
-R16
+R25
 R1
 R2
 R3
-Z92 8/home/sxg4060/Desktop/Projects/MAC-Unit/multiplier.vhd
-Z93 F/home/sxg4060/Desktop/Projects/MAC-Unit/multiplier.vhd
+Z97 8/home/sxg4060/Desktop/Projects/MAC-Unit/multiplier.vhd
+Z98 F/home/sxg4060/Desktop/Projects/MAC-Unit/multiplier.vhd
 l0
 L17
 V:zLo;7Ub9k]EF[b_8dIYH3
 R6
 32
-R83
-Z94 !s108 1575523905.223061
-Z95 !s90 -reportprogress|300|-work|work|-2002|-explicit|-novopt|/home/sxg4060/Desktop/Projects/MAC-Unit/multiplier.vhd|
-Z96 !s107 /home/sxg4060/Desktop/Projects/MAC-Unit/multiplier.vhd|
+R76
+Z99 !s108 1575661950.568414
+Z100 !s90 -reportprogress|300|-work|work|-2002|-explicit|-novopt|/home/sxg4060/Desktop/Projects/MAC-Unit/multiplier.vhd|
+Z101 !s107 /home/sxg4060/Desktop/Projects/MAC-Unit/multiplier.vhd|
 R11
 R12
 !s100 :og@SWA3QhaKLMn5]6>WK0
@@ -619,38 +619,38 @@ Astructural
 R48
 R1
 R2
-R75
+R80
 l34
 L26
 V0Hkf`;nU?T8VRg1I^>kzg2
 R6
 32
-R83
-R94
-R95
-R96
+R76
+R99
+R100
+R101
 R11
 R12
 !s100 ^HnMMbLn6_45^ea@aINa;1
 !i10b 1
 !i111 1
 Emultiplier_tb
-R16
+R25
 R17
 R1
 R2
 R3
-Z97 8/home/sxg4060/Desktop/Projects/MAC-Unit/multiplier_tb.vhd
-Z98 F/home/sxg4060/Desktop/Projects/MAC-Unit/multiplier_tb.vhd
+Z102 8/home/sxg4060/Desktop/Projects/MAC-Unit/multiplier_tb.vhd
+Z103 F/home/sxg4060/Desktop/Projects/MAC-Unit/multiplier_tb.vhd
 l0
 L5
 V335K4HPl0hl1MoG>fI4O93
 R6
 32
-R83
-Z99 !s108 1575523905.301189
-Z100 !s90 -reportprogress|300|-work|work|-2002|-explicit|-novopt|/home/sxg4060/Desktop/Projects/MAC-Unit/multiplier_tb.vhd|
-Z101 !s107 /home/sxg4060/Desktop/Projects/MAC-Unit/multiplier_tb.vhd|
+R76
+Z104 !s108 1575661950.694406
+Z105 !s90 -reportprogress|300|-work|work|-2002|-explicit|-novopt|/home/sxg4060/Desktop/Projects/MAC-Unit/multiplier_tb.vhd|
+Z106 !s107 /home/sxg4060/Desktop/Projects/MAC-Unit/multiplier_tb.vhd|
 R11
 R12
 !s100 IQl[7]WYc@2Q8_I`aaeON0
@@ -666,31 +666,31 @@ L8
 VIhfE?9EHAg;BK[24H0Onl1
 R6
 32
-R83
-R99
-R100
-R101
+R76
+R104
+R105
+R106
 R11
 R12
 !s100 Oga^zdko_7nzMNeGKjRZ52
 !i10b 1
 !i111 1
 Exorg
-R16
+R25
 R1
 R2
 R3
-Z102 8/home/sxg4060/Desktop/Projects/MAC-Unit/xorG.vhd
-Z103 F/home/sxg4060/Desktop/Projects/MAC-Unit/xorG.vhd
+Z107 8/home/sxg4060/Desktop/Projects/MAC-Unit/xorG.vhd
+Z108 F/home/sxg4060/Desktop/Projects/MAC-Unit/xorG.vhd
 l0
 L32
 V9:<<SOnz?a<5f=lhTSF_I3
 R6
 32
-R83
-Z104 !s108 1575523905.384318
-Z105 !s90 -reportprogress|300|-work|work|-2002|-explicit|-novopt|/home/sxg4060/Desktop/Projects/MAC-Unit/xorG.vhd|
-Z106 !s107 /home/sxg4060/Desktop/Projects/MAC-Unit/xorG.vhd|
+R76
+Z109 !s108 1575661950.771754
+Z110 !s90 -reportprogress|300|-work|work|-2002|-explicit|-novopt|/home/sxg4060/Desktop/Projects/MAC-Unit/xorG.vhd|
+Z111 !s107 /home/sxg4060/Desktop/Projects/MAC-Unit/xorG.vhd|
 R11
 R12
 !s100 D14462Qia`BQmJ=;HGJzB3
@@ -703,14 +703,14 @@ DEx4 work 4 xorg 0 22 9:<<SOnz?a<5f=lhTSF_I3
 l40
 L38
 VAEkfFGcm>?f76a=b;]Onc3
-!s100 e_3g^^Eb]ME58n4RYndj`0
 R6
 32
-R83
-R104
-R105
-R106
+R76
+R109
+R110
+R111
 R11
 R12
+!s100 e_3g^^Eb]ME58n4RYndj`0
 !i10b 1
 !i111 1
