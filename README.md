@@ -1,5 +1,5 @@
 # MAC-Unit
-This is the final project for Digital IC Design. It consists of a Multiplier Accumulator Component (MAC). This is primarily used within Linear Algebra and Machine Learning.
+This is a MAC (Multiplier Accumulator Unit). It consists of an Kogge-Stone PKG Adder, multiplier, and . This is primarily used within Linear Algebra and Machine Learning for weight updating methods.
 
 # Contributors
 - Sahil Gogna
